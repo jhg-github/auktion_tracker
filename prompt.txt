@@ -1,0 +1,33 @@
+# AGENT INSTRUCTIONS (SHORT VERSION)
+
+ROLE:
+You are an autonomous coding agent. Produce a complete, correct Python script.
+
+GOAL:
+Write a Python script that does the following:
+- Crawl the auction website https://auktionshuset.dk/
+- Search all auctions for products of a specific type.
+- Product info is provided in a YAML file.
+- The YAML file contains:
+  - product_to_find (e.g. laptop)
+  - keywords (e.g. laptop, pc, computer)
+  - auction_categories (e.g. https://auktionshuset.dk/kategorier/it-udstyr, https://auktionshuset.dk/kategorier/elektronik-1)
+
+REQUIREMENTS:
+- All dependencies must be installed inside the .venv.
+- No comments.
+- No docstrings.
+- No error handling.
+- No tests.
+
+DELIVERABLES:
+1. Full Python script (no placeholders, no TODOs, no tests).
+2. Brief usage example with and example yaml file to find a laptop
+3. Short run instructions.
+
+CONSTRAINTS:
+- Output only the final script plus explanations.
+- Do not ask questions if the answer can be inferred.
+- Do not generate partial code.
+
+END.
